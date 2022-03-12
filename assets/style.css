@@ -1,0 +1,147 @@
+/* import */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shanti&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: ;
+}
+
+body{
+    background:#DAE2F8;
+    width: 100%;
+}
+nav{
+    font-family: 'Montserrat', sans-serif;
+    color: #C3003F;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 98%;
+    height: 70px;
+    align-items: center;
+    box-shadow: 0 0px 15px #a9b7db;
+    background-color:#DAE2F8;
+    border-radius: 12px;
+    padding: 0 15px;
+border: 1px solid  #ebf1ff;
+
+
+}
+nav ul span{
+margin-left: 15px;
+font-size: 12px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+}
+.container{
+    min-height: 71vh;
+ 
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+margin: 20px auto;
+width: 98%;
+border-radius: 12px;
+background-color:#DAE2F8;
+box-shadow: 0 0px 15px #a9b7db;
+border: 1px solid  #ebf1ff;
+padding: 10px 15px;
+background: url(./image/png1.png);
+
+}
+.songlist h1{
+color: #C3003F;
+}
+.btm{
+    display: flex;
+    justify-content: center;
+
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    width: 98%;
+    box-shadow: 0 0px 15px #a9b7db;
+    background-color:#DAE2F8;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 1px solid  #ebf1ff;
+
+}
+#MyProgressBar{
+width: 80vw;
+cursor: pointer;
+}
+.icons{
+    margin: 14px;
+}
+.play{
+    margin: 0 10px;
+}
+.icons i:nth-child(1),.icons i:nth-child(3){
+cursor: pointer;
+font-size: 25px;
+}
+
+.songitem{
+height: 40px;
+display: flex;
+font-family: 'Montserrat', sans-serif;
+font-weight: bolder;
+background-color:#e2eaff;
+width: 100%;
+color: black;
+justify-content: space-between;
+align-items: center;
+margin: 12px 0;
+border-radius: 50px;
+font-size: 12px;
+padding: 0 2px;
+box-shadow: 0 1px 5px #9eabc9;
+border: 1px solid  #ebf1ff;
+}
+.songitem img{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+.timestamp{
+    margin:  0 20px;
+}
+.timestamp i {
+font-size: 15px;
+cursor: pointer;
+}
+input{
+    height: 15px;
+    -webkit-appearance: none;
+    background: #a8b0c5;
+    border: 1px solid #ebf1ff;
+    box-shadow: 0px 1px 5px #9eabc9,inset 0px 1px 5px rgb(197, 207, 233);
+    border-radius: 50px;
+}
+input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #C3003F;
+    cursor: pointer;
+    box-shadow: 0 0 0 3px #DAE2F8, 0 0 0 5px #C3003F;
+}
